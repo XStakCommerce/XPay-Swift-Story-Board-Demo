@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4A264072D4BBF6100D51B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A264062D4BBF6100D51B10 /* AppDelegate.swift */; };
+		E4A264092D4BBF6100D51B10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A264082D4BBF6100D51B10 /* SceneDelegate.swift */; };
+		E4A2640B2D4BBF6100D51B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2640A2D4BBF6100D51B10 /* ViewController.swift */; };
+		E4A2640E2D4BBF6100D51B10 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4A2640D2D4BBF6100D51B10 /* Base */; };
+		E4A264102D4BBF6300D51B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A2640F2D4BBF6300D51B10 /* Assets.xcassets */; };
+		E4A264132D4BBF6300D51B10 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4A264122D4BBF6300D51B10 /* Base */; };
+		E4A2641E2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A2641D2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift */; };
+		E4A264282D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A264272D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift */; };
+		E4A2642A2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A264292D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift */; };
+		E4A264382D4BC1B200D51B10 /* XPayPaymentKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4A264372D4BC1B200D51B10 /* XPayPaymentKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4A2641A2D4BBF6300D51B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A263FB2D4BBF6100D51B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A264022D4BBF6100D51B10;
+			remoteInfo = "XPay Swfit SDK StoryBoard Demo App";
+		};
+		E4A264242D4BBF6300D51B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A263FB2D4BBF6100D51B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A264022D4BBF6100D51B10;
+			remoteInfo = "XPay Swfit SDK StoryBoard Demo App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4A264032D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XPay Swfit SDK StoryBoard Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A264062D4BBF6100D51B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4A264082D4BBF6100D51B10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4A2640A2D4BBF6100D51B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4A2640D2D4BBF6100D51B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4A2640F2D4BBF6300D51B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4A264122D4BBF6300D51B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A264142D4BBF6300D51B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A264192D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XPay Swfit SDK StoryBoard Demo AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A2641D2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift; sourceTree = "<group>"; };
+		E4A264232D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XPay Swfit SDK StoryBoard Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A264272D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift; sourceTree = "<group>"; };
+		E4A264292D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4A264002D4BBF6100D51B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A264382D4BC1B200D51B10 /* XPayPaymentKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A264162D4BBF6300D51B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A264202D4BBF6300D51B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4A263FA2D4BBF6100D51B10 = {
+			isa = PBXGroup;
+			children = (
+				E4A264052D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */,
+				E4A2641C2D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests */,
+				E4A264262D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests */,
+				E4A264042D4BBF6100D51B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A264042D4BBF6100D51B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A264032D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App.app */,
+				E4A264192D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests.xctest */,
+				E4A264232D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4A264052D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				E4A264062D4BBF6100D51B10 /* AppDelegate.swift */,
+				E4A264082D4BBF6100D51B10 /* SceneDelegate.swift */,
+				E4A2640A2D4BBF6100D51B10 /* ViewController.swift */,
+				E4A2640C2D4BBF6100D51B10 /* Main.storyboard */,
+				E4A2640F2D4BBF6300D51B10 /* Assets.xcassets */,
+				E4A264112D4BBF6300D51B10 /* LaunchScreen.storyboard */,
+				E4A264142D4BBF6300D51B10 /* Info.plist */,
+			);
+			path = "XPay Swfit SDK StoryBoard Demo App";
+			sourceTree = "<group>";
+		};
+		E4A2641C2D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4A2641D2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift */,
+			);
+			path = "XPay Swfit SDK StoryBoard Demo AppTests";
+			sourceTree = "<group>";
+		};
+		E4A264262D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4A264272D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift */,
+				E4A264292D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift */,
+			);
+			path = "XPay Swfit SDK StoryBoard Demo AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4A264022D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A2642D2D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo App" */;
+			buildPhases = (
+				E4A263FF2D4BBF6100D51B10 /* Sources */,
+				E4A264002D4BBF6100D51B10 /* Frameworks */,
+				E4A264012D4BBF6100D51B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XPay Swfit SDK StoryBoard Demo App";
+			packageProductDependencies = (
+				E4A264372D4BC1B200D51B10 /* XPayPaymentKit */,
+			);
+			productName = "XPay Swfit SDK StoryBoard Demo App";
+			productReference = E4A264032D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4A264182D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A264302D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo AppTests" */;
+			buildPhases = (
+				E4A264152D4BBF6300D51B10 /* Sources */,
+				E4A264162D4BBF6300D51B10 /* Frameworks */,
+				E4A264172D4BBF6300D51B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A2641B2D4BBF6300D51B10 /* PBXTargetDependency */,
+			);
+			name = "XPay Swfit SDK StoryBoard Demo AppTests";
+			productName = "XPay Swfit SDK StoryBoard Demo AppTests";
+			productReference = E4A264192D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4A264222D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A264332D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo AppUITests" */;
+			buildPhases = (
+				E4A2641F2D4BBF6300D51B10 /* Sources */,
+				E4A264202D4BBF6300D51B10 /* Frameworks */,
+				E4A264212D4BBF6300D51B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A264252D4BBF6300D51B10 /* PBXTargetDependency */,
+			);
+			name = "XPay Swfit SDK StoryBoard Demo AppUITests";
+			productName = "XPay Swfit SDK StoryBoard Demo AppUITests";
+			productReference = E4A264232D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A263FB2D4BBF6100D51B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E4A264022D4BBF6100D51B10 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E4A264182D4BBF6300D51B10 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4A264022D4BBF6100D51B10;
+					};
+					E4A264222D4BBF6300D51B10 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4A264022D4BBF6100D51B10;
+					};
+				};
+			};
+			buildConfigurationList = E4A263FE2D4BBF6100D51B10 /* Build configuration list for PBXProject "XPay Swfit SDK StoryBoard Demo App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4A263FA2D4BBF6100D51B10;
+			packageReferences = (
+				E4A264362D4BC1B200D51B10 /* XCRemoteSwiftPackageReference "XPay-Swift-SDK" */,
+			);
+			productRefGroup = E4A264042D4BBF6100D51B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A264022D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */,
+				E4A264182D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppTests */,
+				E4A264222D4BBF6300D51B10 /* XPay Swfit SDK StoryBoard Demo AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4A264012D4BBF6100D51B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A264102D4BBF6300D51B10 /* Assets.xcassets in Resources */,
+				E4A264132D4BBF6300D51B10 /* Base in Resources */,
+				E4A2640E2D4BBF6100D51B10 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A264172D4BBF6300D51B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A264212D4BBF6300D51B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4A263FF2D4BBF6100D51B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A2640B2D4BBF6100D51B10 /* ViewController.swift in Sources */,
+				E4A264072D4BBF6100D51B10 /* AppDelegate.swift in Sources */,
+				E4A264092D4BBF6100D51B10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A264152D4BBF6300D51B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A2641E2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A2641F2D4BBF6300D51B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A264282D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITests.swift in Sources */,
+				E4A2642A2D4BBF6300D51B10 /* XPay_Swfit_SDK_StoryBoard_Demo_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4A2641B2D4BBF6300D51B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A264022D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */;
+			targetProxy = E4A2641A2D4BBF6300D51B10 /* PBXContainerItemProxy */;
+		};
+		E4A264252D4BBF6300D51B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A264022D4BBF6100D51B10 /* XPay Swfit SDK StoryBoard Demo App */;
+			targetProxy = E4A264242D4BBF6300D51B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4A2640C2D4BBF6100D51B10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A2640D2D4BBF6100D51B10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4A264112D4BBF6300D51B10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A264122D4BBF6300D51B10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4A2642B2D4BBF6300D51B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4A2642C2D4BBF6300D51B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4A2642E2D4BBF6300D51B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "XPay Swfit SDK StoryBoard Demo App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4A2642F2D4BBF6300D51B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "XPay Swfit SDK StoryBoard Demo App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4A264312D4BBF6300D51B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPay Swfit SDK StoryBoard Demo App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XPay Swfit SDK StoryBoard Demo App";
+			};
+			name = Debug;
+		};
+		E4A264322D4BBF6300D51B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPay Swfit SDK StoryBoard Demo App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XPay Swfit SDK StoryBoard Demo App";
+			};
+			name = Release;
+		};
+		E4A264342D4BBF6300D51B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XPay Swfit SDK StoryBoard Demo App";
+			};
+			name = Debug;
+		};
+		E4A264352D4BBF6300D51B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GU498V4MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xstak.XPay-Swfit-SDK-StoryBoard-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XPay Swfit SDK StoryBoard Demo App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A263FE2D4BBF6100D51B10 /* Build configuration list for PBXProject "XPay Swfit SDK StoryBoard Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A2642B2D4BBF6300D51B10 /* Debug */,
+				E4A2642C2D4BBF6300D51B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A2642D2D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A2642E2D4BBF6300D51B10 /* Debug */,
+				E4A2642F2D4BBF6300D51B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A264302D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A264312D4BBF6300D51B10 /* Debug */,
+				E4A264322D4BBF6300D51B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A264332D4BBF6300D51B10 /* Build configuration list for PBXNativeTarget "XPay Swfit SDK StoryBoard Demo AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A264342D4BBF6300D51B10 /* Debug */,
+				E4A264352D4BBF6300D51B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4A264362D4BC1B200D51B10 /* XCRemoteSwiftPackageReference "XPay-Swift-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/XStakCommerce/XPay-Swift-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4A264372D4BC1B200D51B10 /* XPayPaymentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4A264362D4BC1B200D51B10 /* XCRemoteSwiftPackageReference "XPay-Swift-SDK" */;
+			productName = XPayPaymentKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4A263FB2D4BBF6100D51B10 /* Project object */;
+}

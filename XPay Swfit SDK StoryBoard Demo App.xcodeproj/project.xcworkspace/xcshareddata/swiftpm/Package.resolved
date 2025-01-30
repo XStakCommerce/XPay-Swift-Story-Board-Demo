@@ -1,0 +1,15 @@
+{
+  "originHash" : "abddcb743779172f6dab4c7a9fe8ebe3c5baaffdd7245033df3cb8008fa5d580",
+  "pins" : [
+    {
+      "identity" : "xpay-swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XStakCommerce/XPay-Swift-SDK",
+      "state" : {
+        "revision" : "1194b4db7bd74e362e1df22d4bb72158e10e9c8e",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}
